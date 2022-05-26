@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <i class="fa fa-heart-o"></i>
+            <h2>Now Playing</h2>
+            <i class="fa fa-plus"></i>
+            </div>
+            <div class="music-info">
+            <div class="music-image">
+                <img src="images/music-1.jpg" alt="music image"/>
+                </div>
+                <div class="music-text">
+                    <h3 class="name">Bad Habit</h3>
+                    <h4 class="artist">Ed Sheeran</h4>
+                </div>
+                <div class="progress-area">
+                   <!-- <input type="range" value="0" class="seek-bar"> -->
+                    <div class="progress-bar">
+                        <audio id="main-audio" src=""></audio>
+                    </div>
+                    <div class="song-timer">
+                        <span class="current-time">0:00</span>
+                        <span class="max-duration">0:00</span>
+                    </div>
+
+                    </div>
+
+                    <div class="controls">
+                        <i id="repeat-music" class="material-icons" title="repeat loop">repeat</i>
+                        <i id="prev" class="material-icons prev">fast_rewind</i>
+
+                        <div class="play-pause">
+                            <i id="play" class="material-icons">play_arrow</i>
+                        </div>
+                        <i id="next" class="material-icons next">fast_forward</i>
+                        <i id="more-music" class="material-icons">queue_music</i>
+                    </div>
+                 <div class="music-list">
+                        <div class="header">
+                            <div class="row">
+                                <i class="material-icons">queue_music</i>
+                                <span>Music List</span>
+                            </div>
+                            <i id="close-btn" class="material-icons">close</i>
+                        </div>
+                        <ul>
+                           </ul>
+                              </div>
+                             </div>
+                             </div> 
+                             <script src="js/song-list.js"></script>
+                            <script src="js/main.js"></script>
+                            </body>
+                           </html>
